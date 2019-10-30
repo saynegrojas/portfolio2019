@@ -1,0 +1,26 @@
+{
+  "name": "portfolio2019",
+  "version": "1.0.0",
+  "description": "Portfolio created 2019",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saynegrojas/portfolio2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saynegrojas/portfolio2019/issues"
+  },
+  "homepage": "https://github.com/saynegrojas/portfolio2019#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.3.1",
+    "nodemailer-mailgun-transport": "^1.4.0"
+  }
+}

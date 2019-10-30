@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* SCROLL PAGES */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    line-height: 1.2;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+/* cannot use in safari, use jquery*/
+.container {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory; */
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    height: 10px;
+    background: transparent;
+}
+.navbar ul {
+    margin-right: 10px; 
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-end;
+    align-content: center;
+}
+.navbar ul li {
+    margin: 1rem;
+    padding: .1rem;
+}
+.navbar ul li a{
+    font-size: .8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+.navbar ul li a:hover {
+    color: skyblue;
+    cursor: pointer;    
+}
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    /* scroll-snap-align: center; */
+    overflow: hidden;
+}
+
+
+section#skills {
+    /* background: url('../image/greg.jpg') no-repeat center center/cover; */
+    background-color: white;
+    background-attachment: fixed;
+}
+
+section#contact {
+    background: black;
+}
+
+/* SECTION 1 */
+section#home {
+    background: url('../image/coding.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+.s1 h1 {
+    font-size: 48px;
+    font-weight: 300;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background: linear-gradient(to left, #87c7df, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* opacity: 0; */
+    z-index: 1;
+}
+
+.me {
+    height: 50%;
+    position: relative;
+    top: 0%;
+    left: 25%;
+    transform: translate(-20%, 0%);
+}
+.title {
+    position: absolute;
+    width: 40%;
+    /* font-size: 20px; */
+    padding: 10px;
+    /* color: #c4bbbb; */
+    top: 35%;
+    left: 25%;
+    transform: translate(-25%, -35%);
+
+    /* padding-left: 0px; */
+    /* align-self: flex-start; */
+}
+/* .title p {
+    position: relative;
+    top: 10%;
+    left: 0%;
+    transform: translate(0%, -10%);
+    padding-left: 0px;
+    align-self: flex-start;
+} */
+.title p {
+    margin: 5px;
+
+}
+
+
+/* SKILLS */
+
+
