@@ -448,7 +448,7 @@ h6 {
     margin-left: 0%;
 }
 .hero-content p {
-    /* margin: 0 6px 12px; */
+    margin: 0 6px 12px;
     font-weight: 300;
     line-height: 36px;
     color: grey;
@@ -538,10 +538,7 @@ textarea:focus {
         width: 96%;
     }
     /* .send {
-        margin-left: 72px;
-    }
-    p {
-        margin: 0 28px;
+        margin-left: 8%;
     } */
 }
 

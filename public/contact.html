@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./style/styles.css">
-    <link rel="stylesheet" type="text/css" href="./style/animate.css">
+    <link rel="stylesheet" type="text/css" href="../style/styles.css">
+    <link rel="stylesheet" type="text/css" href="../style/animate.css">
 
     <title>Document</title>
 </head>
@@ -18,7 +18,7 @@
         <!-- NAV -->
         <nav>
             <span id="brand">
-                <a href="index.html">greg rojas</a>
+                <a href="/">greg rojas</a>
             </span>
 
             <ul id="menu">
@@ -101,15 +101,15 @@
 
         <div class="whitespace"></div>
 
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <form action="" class="contact-form" id="contact-form" method="POST">
                         <ul>
                             <li class="wow fadeInUp" data-wow-delay="1.4s">
-                                <label for="contact-name">name: </label>
+                                <label for="contact-subject">name: </label>
                                 <div class="textarea wow fadeInUp">
-                                    <input type="text" name="contact-name" id="contact-name" value="" required>
+                                    <input type="text" name="contact-subject" id="contact-subject" value="" required>
                                 </div>
                             </li>
                             <li class="wow fadeInUp" data-wow-delay="1.6s">
@@ -119,9 +119,9 @@
                                 </div>
                             </li>
                             <li class="wow fadeInUp" data-wow-delay="1.6s">
-                                <label for="contact-project">message: </label>
+                                <label for="contact-text">message: </label>
                                 <div class="textarea wow fadeInUp">
-                                    <textarea type="text" name="message" id="contact-project" value="" rows="6" required></textarea>
+                                    <textarea type="text" name="message" id="contact-text" value="" rows="6" required></textarea>
                                 </div>
                             </li>
                         </ul>
@@ -211,9 +211,10 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="../js/index.js"></script>
+    <!-- <script src="../email.js"></script> -->
 
-    <script src="./js/index.js"></script>
-    <script src="./js/wow.js"></script>
+    <script src="../js/wow.js"></script>
 
 </body>
 

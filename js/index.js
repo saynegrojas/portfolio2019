@@ -1,4 +1,3 @@
-
 $(function () {
     $('#toggle').click(function () {
         $(this).toggleClass('on');
@@ -17,24 +16,21 @@ $(function () {
 
 
     //EMAIL
-    // name: contact-name 
-    // email: contact-email
-    // project: contact-project
 
     //trigger element form on an event submit
     $('form').on('submit', e => {
         e.preventDefault();
 
         //instaniate the elements to be filled with a value
-        const name = $('#contact-name').val().trim();
+        const subject = $('#contact-subject').val().trim();
         const email = $('#contact-email').val().trim();
-        const project = $('#contact-project').val().trim();
+        const text = $('#contact-text').val().trim();
 
         //get the values from user and store into an object
         const data = {
-            name,
             email,
-            project
+            subject,
+            text
         }
 
         //grab the value of each input field and send data to server
