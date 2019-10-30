@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const sendMail = require('./email');
-require('dotenv').config();
 
 //parsing 
 app.use(express.json());

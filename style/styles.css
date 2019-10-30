@@ -286,7 +286,7 @@ h6 {
     position: absolute;
     display: block;
     top: 30%;
-    left: -32%;
+    left: -40%;
     right: 0;
     bottom: 0;
 }
@@ -308,7 +308,7 @@ h6 {
 }
 .project3 {
     background: url(../image/know-me-square.gif) no-repeat 50% 50%;
-    background-size: cover;
+    background-size: contain;
 }
 .project3::after {
     content: 'know me';
@@ -324,35 +324,28 @@ h6 {
 }
 #project1 {
     height: 400px;
+    cursor: pointer;    
 }
 #project2 {
     height: 400px;
+    cursor: pointer;    
 }
 #project3 {
     background-size: contain;
     width: 500px;
     height: 400px;
+    cursor: pointer;    
+}
+#project-1, #project-2, #project-3 {
+    cursor: pointer;
 }
 #project-title {
     text-align: center;
 }
-/* #project-1 {
-    width: 470px;
-    height: 500px;
-}
-#project-2 {
-    margin-left: 2%;
-    width: 470px;
-    height: 500px;
-}
-#project-3 {
-    width: 470px;
-    height: 500px;
-} */
 
 @media(max-width: 768px) {
     .project {
-        width: 90% !important;
+        width: 60% !important;
         margin: 14px auto;
     }
     .vertical {
