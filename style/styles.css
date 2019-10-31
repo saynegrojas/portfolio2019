@@ -286,12 +286,12 @@ h6 {
     position: absolute;
     display: block;
     top: 30%;
-    left: -40%;
+    left: -60%;
     right: 0;
     bottom: 0;
 }
 .project2 {
-    background: url(../image/drinkproperly.png) no-repeat 50% 50%;
+    background: url(../image/drinkproperly.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project2::after {
@@ -302,13 +302,13 @@ h6 {
     position: relative;
     display: block;
     top: 60%;
-    left: 90%;
+    left: 110%;
     right: 0;
     bottom: 0;
 }
 .project3 {
     background: url(../image/know-me-square.gif) no-repeat 50% 50%;
-    background-size: contain;
+    background-size: cover;
 }
 .project3::after {
     content: 'know me';
@@ -318,7 +318,7 @@ h6 {
     position: absolute;
     display: block;
     top: 60%;
-    left: -16%;
+    left: -35%;
     right: 0;
     bottom: 0;
 }
@@ -326,15 +326,22 @@ h6 {
     height: 400px;
     cursor: pointer;    
 }
+#project1::after {
+    display: none;
+}
 #project2 {
     height: 400px;
     cursor: pointer;    
 }
+#project2::after {
+    display: none;
+}
 #project3 {
-    background-size: contain;
-    width: 500px;
     height: 400px;
     cursor: pointer;    
+}
+#project3::after {
+    display: none;
 }
 #project-1, #project-2, #project-3 {
     cursor: pointer;
@@ -342,16 +349,17 @@ h6 {
 #project-title {
     text-align: center;
 }
+#content {
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+}
 
 @media(max-width: 768px) {
     .project {
-        width: 60% !important;
+        width: 80% !important;
         margin: 14px auto;
     }
     .vertical {
-        display: none;
-    }
-    .project1::after, .project2::after, .project3::after {
         display: none;
     }
 }
@@ -461,8 +469,8 @@ h6 {
 
 /* about page */
 .about {
-    height: 400px;
-    margin-top: 120px;
+    height: 600px;
+    margin-top: 280px;
 }
 .image {
     background: url('../image/greg.jpg') no-repeat 50% 100%;
