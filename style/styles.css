@@ -473,7 +473,7 @@ h6 {
 /* about page */
 .about {
     height: 600px;
-    margin-top: 280px;
+    margin-top: 120px;
 }
 .image {
     background: url('../image/greg.jpg') no-repeat 50% 100%;
