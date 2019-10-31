@@ -14,9 +14,10 @@ require('./middleware/middleware')(app);
 //expect data from client
 app.post('/contact', (req, res) => {
 
-    //todo
+    //deconstruct values from requested data
     const { email, subject, text } = req.body;
-    //send email
+
+    //send email returns the given data and provides error or successful messages
     sendMail(email, subject, text, function (err, data) {
         if (err) {
             console.log('error: ', err);
