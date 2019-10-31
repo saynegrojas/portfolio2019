@@ -362,6 +362,9 @@ h6 {
     .vertical {
         display: none;
     }
+    .project1::after, .project2::after,.project3::after {
+        display: none;
+    }
 }
 
 
