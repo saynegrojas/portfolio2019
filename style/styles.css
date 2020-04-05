@@ -33,7 +33,7 @@ html, body {
     transform: translateY(-50%);
 }
 .anim-typewriter {
-    animation: typewriter 4s steps(25) 1s 1 normal both,
+    animation: typewriter 2.5s steps(25) 1s 1 normal both,
     blinkTextCussor 500ms steps(25) infinite normal;
 }
 @keyframes typewriter {
@@ -107,7 +107,6 @@ nav #menu li span {
 }
 nav #menu li a {
     color: #fff;
-
 }
 nav #menu li a:hover {
     text-decoration: none;
@@ -467,7 +466,6 @@ h6 {
         width: 96%;
         margin: 0 auto;
     }
-
 }
 
 /* about page */
