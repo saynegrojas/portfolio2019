@@ -511,6 +511,10 @@ h6 {
     color: #fff;
     font-weight: bolder;
 }
+#contact-form textarea {
+    min-height: 100px;
+    max-height: 100px;
+}
 input:focus {
     outline: none;
     border: none;
