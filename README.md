@@ -8,13 +8,34 @@ Portfolio created 2019
 
 ## 👨‍💻 **Getting Started**
 
-To get started, make sure to fill out the .env file with the appropriate information. Make sure that all prerequisites are met or application won't operate correctly.
+To get started, make sure to fill out the .env file with the appropriate information.
+
+## ⟲ **Prerequisites**
+
+- Clone repository
+
+The minimum requirements to run this include:
+
+- Nodemailer
+- Nodemailer-mailgun-transporter key
+- Npm
 
 ## 🌐 **Installing**
 
-1. Clone repository
-2. Npm install
-3. Npm start || nodemon start
+1. Update your `.env` file with the required information. 
+
+.env example input
+```
+MAILGUN_PASSWORD=Ds~4lq~}.?*f~Ql$42J%aR7%SoKxaN
+SECRET=SklZvh3a0PwQev901A1zT23vlG
+```
+
+2. Install required packages
+
+```
+npm install
+
+```
 
 ## 📓 **Development**
 
