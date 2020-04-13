@@ -12,23 +12,14 @@ To get started, make sure to fill out the .env file with the appropriate informa
 
 ## ⟲ **Prerequisites**
 
-- Clone repository
-
 The minimum requirements to run this include:
 
+- Clone repository
 - Nodemailer
 - Nodemailer-mailgun-transporter key
 - Npm
 
 ## 🌐 **Installing**
-
-1. Update your `.env` file with the required information. 
-
-.env example input
-```
-MAILGUN_PASSWORD=Ds~4lq~}.?*f~Ql$42J%aR7%SoKxaN
-SECRET=SklZvh3a0PwQev901A1zT23vlG
-```
 
 2. Install required packages
 
