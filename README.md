@@ -3,7 +3,7 @@ Portfolio created 2019
 <p align="center">
   <img 
        src="image/Portfolio screen shot .png"
-       width="400">
+       width="350">
  </p>
 
 ## 👨‍💻 **Getting Started**
