@@ -1,6 +1,10 @@
 ## Portfolio2019
 Portfolio created 2019
-
+<p align="center">
+  <img 
+       src="image/Portfolio screen shot .png"
+       width="400">
+ </p>
 
 ## 👨‍💻 **Getting Started**
 
