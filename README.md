@@ -1,21 +1,22 @@
 ## Portfolio2019
 Portfolio created 2019
+<p align="center">
+  <img 
+       src="image/Portfolio screen shot .png"
+       width="350">
+ </p>
 
-## Getting Started
+## 👨‍💻 **Getting Started**
 
 To get started, make sure to fill out the .env file with the appropriate information. Make sure that all prerequisites are met or application won't operate correctly.
 
-## Prerequisites
-
-- Clone repository
-
-## Installing
+## 🌐 **Installing**
 
 1. Clone repository
 2. Npm install
 3. Npm start || nodemon start
 
-## Deployment
+## 📓 **Development**
 
 Deployed on Heroku
 Deployment Link: https://radiant-taiga-20611.herokuapp.com/
@@ -30,7 +31,7 @@ Deployment Link: https://radiant-taiga-20611.herokuapp.com/
 * Bootstrap
 * Nodemailer
 
-## Contributing
+## 🤝 **Contributing**
 
 * **👤 Greg Rojas**
 
