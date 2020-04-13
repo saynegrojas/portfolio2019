@@ -1,4 +1,4 @@
-## Portfolio2019
+## :ledger: Personal portfolio
 Portfolio created 2019
 <p align="center">
   <img 
